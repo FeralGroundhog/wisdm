@@ -19,7 +19,7 @@
     <section class="row">
     <div class="small-12 columns show-for-small">
     	<div class="panel radius callout text-center">
-        	<?php require_once ('includes/php/global-announcements.php'); ?>
+        	<?php include ('includes/php/global-announcements.php'); ?>
         </div>
     </div>
     
@@ -61,10 +61,8 @@
     <div class="large-3 small-12 columns hide-for-small">
     	<br /><br /><br />
     	<div class="panel radius callout">
-        	<h4>Upcoming Events</h4>
         	<p>
-				<h6>11/18/2013 </h6>
-                <p>General Meeting</p>
+				<?php include('includes/php/global-announcements.php'); ?>
             </p>
         </div>
         
