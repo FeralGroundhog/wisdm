@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/index.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/about.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/dataset.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/resources.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/members.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/includes/files/sensorKDD-2010.pdf</loc>
+  <lastmod>2011-03-06T01:08:06+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/includes/files/btas10.pdf</loc>
+  <lastmod>2011-03-06T01:07:19+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/news.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/publications.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/equipment.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/funding.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/relatedwork.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/conferences.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/includes/files/Lockhart-Design-SensorKDD11.pdf</loc>
+  <lastmod>2011-06-21T19:50:19+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/includes/files/SensorKDD11.pdf</loc>
+  <lastmod>2011-06-21T03:57:13+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.cis.fordham.edu/wisdm/includes/files/Fordham_FURJ_2011.pdf</loc>
+  <lastmod>2011-06-01T22:59:51+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>
