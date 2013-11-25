@@ -1,0 +1,140 @@
+/* CSS Document */
+
+/******** WISDM COLORS
+W: #a4ca39
+I: #1175bd
+S: #ca178e
+D: #ec342c
+M: #fda92d
+font-face: Duralith (modified)
+**********************/
+
+
+a { -webkit-transition: all 225ms ease-in-out;
+-moz-transition: all 225ms ease-in-out;
+-o-transition: all 225ms ease-in-out;
+-ms-transition: all 225ms ease-in-out; }
+
+body .row p a:hover, body .row span a:hover, body p a:hover body .row li a:hover, body .row blockquote a:hover { background-color: #222; padding: 0.125em 0.5em; color: #f1f1f1 !important; }
+body .row p a, body .row span a, body .row li a { color: #222 !important; }
+	body#green .row p a, body#green .row li a { border-bottom: 2px dotted #a4ca39; }
+		body#green .row p a:hover, body#green .row li a:hover { background-color: #a4ca39; }
+		body#green a.button, body#green .panel.callout { background-color: #a4ca39; border-color: #89b01a; } body#green a.button:hover { background-color: #89b01a; border-color: #a4ca39; }
+	body#blue .row p a, body#blue .row span a, body#blue .row li a { border-bottom: 2px dotted #1175bd; }
+		body#blue .row p a:hover, body#blue .row span a:hover, body#blue .row li a:hover { background-color: #1175bd; }
+		body#blue a.button, body#blue .panel.callout { background-color: #1175bd; border-color: #005da2; } body#blue a.button:hover { background-color: #005da2; border-color: #1175bd; }
+	body#purple .row p a, body#purple .row li a{ border-bottom: 2px dotted #ca178e; } body#purple .row blockquote a { color: #ca178e; }
+		body#purple .row p a:hover, body#purple .row li a:hover, body#purple .row blockquote a:hover { background-color: #ca178e; }
+		body#purple a.button, body#purple .panel.callout { background-color: #ca178e; border-color: #ac0074; } body#purple a.button:hover { background-color: #ac0074; border-color: #ca178e; }
+	body#red .row p a, body#red .row li a { border-bottom: 2px dotted #ec342c; }
+		body#red .row p a:hover, body#red .row li a:hover { background-color: #ec342c; }
+		body#red a.button, body#red .panel.callout { background-color: #ec342c; border-color: #cb0015; } body#red a.button:hover { background-color: #cb0015; border-color: #ec342c; }
+	body#gold .row p a, body#gold .row li a { border-bottom: 2px dotted #fda92d; }
+		body#gold .row p a:hover, body#gold .row li a:hover { background-color: #fda92d; }
+		body#gold a.button, body#gold .panel.callout { background-color: #fda92d; border-color: #dd8e00; } body#gold a.button:hover { background-color: #dd8e00; border-color: #fda92d; }
+
+
+header {
+	/* background: #161616 url(../img/header-bckgd.png) repeat; */
+	width: 100%;
+	/* padding-bottom: 1em; */
+	margin-bottom: 1em;
+}
+
+/********** Main Navigation ***********/
+.top-bar { background: #111; margin-bottom: 1em; }
+.main-nav { }
+	ul.main-nav > li > a { 
+		background: none; 
+		border: none;
+		margin: 0;
+	}
+	/*** child-specific styling **/
+	ul.main-nav > li:nth-child(1) { border-bottom: 4px solid #a4ca39 ;	}
+		ul.main-nav > li:nth-child(1) > a:hover { background-color: #a4ca39; }
+	ul.main-nav > li:nth-child(2) { border-bottom: 4px solid #1175bd;	}
+		ul.main-nav > li:nth-child(2) a:hover { background-color: #1175bd; }
+	ul.main-nav > li:nth-child(3) { border-bottom: 4px solid #ca178e;	}
+		ul.main-nav > li:nth-child(3) a:hover { background-color: #ca178e; }
+	ul.main-nav > li:nth-child(4) { border-bottom: 4px solid #ec342c;	}
+		ul.main-nav > li:nth-child(4) a:hover { background-color: #ec342c; }
+	ul.main-nav > li:nth-child(5) { border-bottom: 4px solid #fda92d;	}
+		ul.main-nav > li:nth-child(5) a:hover { background-color: #fda92d; }
+		
+	ul.main-nav > li > ul.dropdown a { background: #202020; border-bottom: none; }
+
+/* End Main Nav */
+
+/********** Banner Image **********/
+#page-banner { background: url(../img/banner-img.jpg) no-repeat top center; background-size: contain; min-height: 250px;}
+	#page-banner > div { margin-top: 2em; }
+	#title-box {
+		max-width: 50%;
+		text-align: right;
+	}
+	h1.page-title { 
+		line-height: 0.83em; 
+		margin: 0; 
+		background-color: #222; 
+		color: #f1f1f1;  
+		padding:  0.25em;
+		text-shadow: 3px 0px 2px rgba(0,0,0,0.5);
+		text-transform: uppercase;
+	}
+		.page-title#home { background-color: #a4ca39; }
+		.page-title#about { background-color: #1175bd; }
+		.page-title#dataset { background-color: #ca178e; }
+		.page-title#resources { background-color: #ec342c; }
+		.page-title#members { background-color: #fda92d; }
+/* End Banner Image */
+
+/********** Footer Styling **********/
+footer, footer a { color: rgba(2,2,2,0.75) !important; border-bottom: none !important; }
+footer ul.inline-list { margin-bottom: 0; }
+footer div > ul#footer-nav > li > a { 
+	-webkit-transition: all 225ms ease-in-out; 
+	-moz-transition: all 225ms ease-in-out; 
+	-o-transition: all 225ms ease-in-out;
+	-ms-transition: all 225ms ease-in-out;
+}
+footer ul > li > a:hover { padding: 0 0.5em !important; /* margin-right: 15px; */}
+	/* footer div > ul#footer-nav > li:nth-child(1) > a { color: #a4ca39; } */
+		footer div > ul#footer-nav > li:nth-child(1) > a:hover { background-color: #a4ca39; color: #f1f1f1; }
+	/* footer div > ul#footer-nav > li:nth-child(2) > a { color: #1175bd; } */
+		footer div > ul#footer-nav > li:nth-child(2) > a:hover { background-color: #1175bd; color: #f1f1f1; }
+	/* footer div > ul#footer-nav > li:nth-child(3) > a { color: #ca178e; } */
+		footer div > ul#footer-nav > li:nth-child(3) > a:hover { background-color: #ca178e; color: #f1f1f1; }
+	/* footer div > ul#footer-nav > li:nth-child(4) > a { color: #ec342c; } */
+		footer div > ul#footer-nav > li:nth-child(4) > a:hover { background-color: #ec342c; color: #f1f1f1; }
+	/* footer div > ul#footer-nav > li:nth-child(5) > a { color: #fda92d; } */
+		footer div > ul#footer-nav > li:nth-child(5) > a:hover { background-color: #fda92d; color: #f1f1f1; }
+
+/* End Footer Styles */
+
+/* Mods for Conference/Related Works Lists */
+.large-list ul li { margin-bottom: 0.5em; }
+
+/* Dataset Styling */
+.dataset-text {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.85em;
+	font-weight: 400;
+	margin-bottom: 0.275em;
+	line-height: 1;
+}
+	p.dataset-text + blockquote { font-size: 0.85em; line-height: 1.25 }
+	p.dataset-text + ul, ul.dataset-text { margin-left: 0; }
+	p.dataset-text + ul > li, ul.dataset-text > li {  list-style-type: none; }
+	p.dataset-text + ul > li > ul > li, ul.dataset-text > li > ul > li { margin-left: 1.5em; }
+	
+/* Tumblr Title */
+.tumblrTitle {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-bottom: 0.275em;
+	line-height: 1;
+}
+	
+	
+	
